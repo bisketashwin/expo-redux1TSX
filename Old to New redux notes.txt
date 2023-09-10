@@ -1,0 +1,11 @@
+You no longer need to import createStore, compose, applyMiddleware, combineReducers from redux. 
+All of these are handled internally in the configureStore API provided by @reduxjs/toolkit.
+
+this is WEB one
+https://stackoverflow.com/questions/69502147/changing-from-redux-to-redux-toolkit
+
+
+mobile app
+https://www.educative.io/answers/how-to-use-redux-toolkit-with-react-native
+
+Notice that we didn't define any action objects in our code. This is because Redux Toolkit allows us to create actions on the fly. 
